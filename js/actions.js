@@ -116,7 +116,7 @@ function createCharacterDiv(character) {
                     ${character.status}-${character.species}
                 </span>
                 <h4>Last known location:</h4>
-                <p>${character.status}</p>
+                <p>${character.location.name}</p>
                 <h4>Origin</h4>
                 <p>${character.origin.name}</p>
             </div>
